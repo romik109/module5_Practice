@@ -82,4 +82,18 @@ p {
     color: black;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
+
+article:nth-child(even) {
+    background-color : #efefefca;
+}
+
+article:nth-of-type(-n+2)::before {
+    content: "NEW!" ;
+    font-size: 25px;
+    font-weight: bolder;
+    text-decoration: none ;
+    
+}
+
+
 <"https://images.unsplash.com/photo-1466978913421-dad2ebd01d17?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1374&q=80 - another one image">
